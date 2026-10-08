@@ -405,9 +405,7 @@ The completed solution provides:
 
 **Divya Sree Pabboju**
 
-B.Tech – Artificial Intelligence & Machine Learning
 
-Institute of Aeronautical Engineering, Hyderabad
 
 ---
 
