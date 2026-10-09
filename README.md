@@ -1,17 +1,17 @@
 
 
 ```markdown
-# Supply Chain Visibility System With Optimization Analytics
+Supply Chain Visibility System With Optimization Analytics
 
-## 📌 Project Overview
+📌 Project Overview
 
-The **Supply Chain Visibility System With Optimization Analytics** is a Power BI-based analytics project developed to provide interactive insights into vessel movement, shipment performance, inventory, transportation, delivery, and warehouse operations.
+The Supply Chain Visibility System With Optimization Analytics is a Power BI-based analytics project developed to provide interactive insights into vessel movement, shipment performance, inventory, transportation, delivery, and warehouse operations.
 
-The project uses **AIS vessel-tracking data enriched with weather information** and develops a series of Power BI dashboards across four milestones. The solution applies data modelling, Power Query, DAX, KPI analysis, and interactive visualizations to support data-driven supply chain decision-making.
+The project uses AIS vessel-tracking data enriched with weather information and develops a series of Power BI dashboards across four milestones. The solution applies data modelling, Power Query, DAX, KPI analysis, and interactive visualizations to support data-driven supply chain decision-making.
 
 ---
 
-## 🎯 Objectives
+ 🎯 Objectives
 
 - Analyse vessel and shipment movement patterns
 - Monitor supply chain and fleet performance
@@ -24,7 +24,7 @@ The project uses **AIS vessel-tracking data enriched with weather information** 
 
 ---
 
-## 🛠️ Tools & Technologies
+ 🛠️ Tools & Technologies
 
 - Power BI Desktop
 - Power Query
@@ -39,13 +39,13 @@ The project uses **AIS vessel-tracking data enriched with weather information** 
 
 ---
 
-# 📊 Project Milestones
+ 📊 Project Milestones
 
-## Milestone 1 – Data Modelling & KPI Foundation
+Milestone 1 – Data Modelling & KPI Foundation
 
 The first milestone focuses on building the basic supply chain analytics model and establishing key performance indicators.
 
-### Key Activities
+Key Activities
 
 - Data preparation and transformation using Power Query
 - Creation of fact and dimension tables
@@ -55,7 +55,7 @@ The first milestone focuses on building the basic supply chain analytics model a
 - Weather impact analysis
 - Development of interactive KPI dashboards
 
-### Key KPIs
+Key KPIs
 
 - Total Vessels
 - Total Pings
@@ -69,11 +69,11 @@ The first milestone focuses on building the basic supply chain analytics model a
 
 ---
 
-## Milestone 2 – Inventory & Delivery Analytics
+Milestone 2 – Inventory & Delivery Analytics
 
 The second milestone extends the model to inventory and delivery-related analytics.
 
-### Key Activities
+Key Activities
 
 - Inventory analysis
 - Delivery performance analysis
@@ -82,7 +82,7 @@ The second milestone extends the model to inventory and delivery-related analyti
 - Delivery trend and variance analysis
 - Interactive drill-down analysis
 
-### Key Metrics
+Key Metrics
 
 - Total Inventory
 - Total Products
@@ -93,11 +93,11 @@ The second milestone extends the model to inventory and delivery-related analyti
 
 ---
 
-## Milestone 3 – Supplier & Transportation Analytics
+Milestone 3 – Supplier & Transportation Analytics
 
 The third milestone focuses on transportation and supplier-related performance.
 
-### Key Activities
+Key Activities
 
 - Supplier performance analysis
 - Transportation cost analysis
@@ -106,7 +106,7 @@ The third milestone focuses on transportation and supplier-related performance.
 - Fulfillment and quality analysis
 - Development of transportation KPIs
 
-### Key Metrics
+Key Metrics
 
 - Total Transportation Cost
 - Average Shipment Cost
@@ -115,7 +115,7 @@ The third milestone focuses on transportation and supplier-related performance.
 - On-Time Rate
 - Quality Score
 
-> **Note:** The original AIS dataset does not contain dedicated supplier, carrier, or transportation-cost fields. Proxy mappings and an assumed transportation cost rate were used for analytical purposes.
+> Note: The original AIS dataset does not contain dedicated supplier, carrier, or transportation-cost fields. Proxy mappings and an assumed transportation cost rate were used for analytical purposes.
 
 ---
 
@@ -127,32 +127,32 @@ The dataset does not contain dedicated order IDs, physical warehouse capacity, p
 
 ---
 
-## 📌 Data Model
+📌 Data Model
 
 The Power BI model follows a **Star Schema** consisting of:
 
-### Fact Table
+Fact Table
 
 - `Fact_Shipment`
 
-### Dimension Tables
+Dimension Tables
 
 - `Dim_Product`
 - `Dim_Warehouse`
 - `Dim_Status`
 - `Dim_Date`
 
-### Measures Table
+Measures Table
 
 - `_Measures`
 
 ---
 
-## 📈 Milestone 4A – Warehouse Efficiency Report
+📈 Milestone 4A – Warehouse Efficiency Report
 
 The Warehouse Efficiency Report provides detailed operational analysis of warehouse performance.
 
-### KPI Cards
+KPI Cards
 
 - Total Orders
 - Total Shipped Quantity
@@ -161,7 +161,7 @@ The Warehouse Efficiency Report provides detailed operational analysis of wareho
 - Picking Accuracy
 - Operating Cost
 
-### Visualizations
+Visualizations
 
 - Total Order Quantity by Warehouse
 - Capacity Utilisation by Warehouse
@@ -173,11 +173,11 @@ The Warehouse Efficiency Report provides detailed operational analysis of wareho
 
 ---
 
-## 📊 Milestone 4B – Executive Overview
+📊 Milestone 4B – Executive Overview
 
 The Executive Overview dashboard provides a high-level view of supply chain performance for management and decision-making.
 
-### KPI Cards
+KPI Cards
 
 - Total Orders
 - Total Shipped Quantity
@@ -186,14 +186,14 @@ The Executive Overview dashboard provides a high-level view of supply chain perf
 - Picking Accuracy
 - Operating Cost
 
-### Interactive Filters
+Interactive Filters
 
 - Date
 - Warehouse
 - Zone
 - Order Type
 
-### Visualizations
+Visualizations
 
 - Total Orders by Date
 - Total Orders by Warehouse
@@ -203,11 +203,11 @@ The Executive Overview dashboard provides a high-level view of supply chain perf
 
 ---
 
-## ⚙️ Milestone 4C – Performance Optimization
+⚙️ Milestone 4C – Performance Optimization
 
 The Performance Optimization dashboard provides a consolidated warehouse-level comparison.
 
-### Key Metrics
+Key Metrics
 
 - Warehouse City
 - Capacity Utilisation
@@ -222,7 +222,7 @@ This view helps identify warehouses with comparatively higher or lower operation
 
 ---
 
-# 🔄 Data Preparation
+ 🔄 Data Preparation
 
 Power Query was used for data preparation and transformation activities including:
 
@@ -236,7 +236,7 @@ Power Query was used for data preparation and transformation activities includin
 
 ---
 
-# 🗂️ Repository Structure
+ 🗂️ Repository Structure
 
 ```text
 Supply-Chain-Visibility-System-With-Optimization-Analytics/
@@ -267,23 +267,23 @@ Supply-Chain-Visibility-System-With-Optimization-Analytics/
 
 ---
 
-# 🖼️ Dashboard Screenshots
+🖼️ Dashboard Screenshots
 
-## Data Model – Star Schema
+Data Model – Star Schema
 
-![Data Model](Screenshots/Data%20Model.png)
+## ![Data Model](Screenshots/Data%20Model.png)
 
-## Milestone 1
+Milestone 1
 
-![Milestone 1](Screenshots/Milestone%201.png)
+## ![Milestone 1](Screenshots/Milestone%201.png)
 
-## Milestone 2
+Milestone 2
 
-![Milestone 2](Screenshots/Milestone%202.png)
+## ![Milestone 2](Screenshots/Milestone%202.png)
 
-## Milestone 3
+ Milestone 3
 
-![Milestone 3](Screenshots/Milestone%203.png)
+## ![Milestone 3](Screenshots/Milestone%203.png)
 
 ## Milestone 4A – Warehouse Efficiency
 
@@ -299,16 +299,16 @@ Supply-Chain-Visibility-System-With-Optimization-Analytics/
 
 ---
 
-# 📄 Project Report
+ 📄 Project Report
 
 The complete project and internship report covering all four milestones is available in the `Document` folder.
 
-**Report:**  
+Document: 
 `Infosys_Internship_Supply_Chain_Visibility_Project_Updated_Report.pdf`
 
 ---
 
-# ⚠️ Data & Proxy Metric Note
+⚠️ Data & Proxy Metric Note
 
 The original AIS vessel-tracking dataset does not contain dedicated fields for certain traditional warehouse and supply-chain measures such as physical warehouse capacity, order IDs, picking transactions, and physical shipped quantity.
 
@@ -328,7 +328,7 @@ These mappings were used to demonstrate analytical and dashboard-development cap
 
 ---
 
-# 📌 Key Outcomes
+📌 Key Outcomes
 
 The project demonstrates how Power BI can be used to transform operational data into interactive supply chain analytics.
 
@@ -346,15 +346,15 @@ The completed solution provides:
 
 ---
 
-# 👩‍💻 Author
+👩‍💻 Author
 
 **Divya Sree Pabboju**
-
+Infosys Virtual Internship 7.0 Project
 
 
 ---
 
-# 📜 License
+📜 License
 
 This project is licensed under the **MIT License**.
 
